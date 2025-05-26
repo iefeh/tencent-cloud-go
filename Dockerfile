@@ -18,7 +18,7 @@ FROM alpine:latest
 
 WORKDIR /app
 COPY --from=builder /app/main .
-COPY --from=builder /app/config.yaml ./config.yaml
+#COPY --from=builder /app/config.yaml ./config.yaml
 # 如果有配置文件
 
 # 设置时区
