@@ -23,6 +23,7 @@ on:
     branches:
       - 'deploy-dev' # pr关闭时触发部署
 
+
 # Environment variables available to all jobs and steps in this workflow
 env:
   TKE_REGISTRY_URL: moonveil-entertainment.tencentcloudcr.com
