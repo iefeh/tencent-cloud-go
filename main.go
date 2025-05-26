@@ -6,6 +6,8 @@ import (
 )
 
 func main() {
-	fmt.Println(os.Getenv("TEST"))
-	select {}
+	fmt.Println(os.Getenv("JAVA_HOME"))
+	for {
+
+	}
 }
