@@ -7,4 +7,5 @@ import (
 
 func main() {
 	fmt.Println(os.Getenv("TEST"))
+	select {}
 }
